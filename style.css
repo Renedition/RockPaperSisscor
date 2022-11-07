@@ -1,19 +1,20 @@
-body{
-    background-color: rgb(146, 146, 146);
-}
-h1{
-    color: rgb(243, 243, 243);
+header{
+    margin: 0;
+    padding: 20px;
+    background-color: white;
     text-align: center;
-    font-size: 50px;
-    text-shadow: 5px 5px 10px black;
-}
-#score{
-    display:absolute;
-    border-color: black;
-}
-#rockc{
-    width: 100px;
-    height: 200px;
+  }
+  body{
+      background-color: rgb(146, 146, 146);
+  }
+  
+  .choice{
+    border: 10px solid white;
+    display: inline-block;
     border-radius: 50%;
-    background: #f000;
-}
+    padding: 15px;
+    background-color:white;
+  }
+  .choice:hover{
+    color:green;
+  }
